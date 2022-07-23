@@ -1,15 +1,19 @@
 ﻿body {
     padding: 0;
     line-height: 1.5;
-    background: #181a1b;
+    /*background: #181a1b;*/
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
 }
 
 header {
-    background: #181a1b;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://wallpaperaccess.com/full/5651988.jpg');
     background-size: cover;
     min-height: 80vh;
     position: relative;
-    /*background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));*/
 }
 
     header #particles-js {
@@ -46,11 +50,9 @@ header {
         letter-spacing: 2px;
         white-space: nowrap;
         text-align: center;
-        font-size: clamp(2rem, 5vw, 4rem);
+        font-size: 65px;
         font-family: "Alfa Slab One", "Poppins";
-        font-weight: 400;
-        font-family: "Alfa Slab One", "Poppins";
-        font-weight: 400;
+        font-weight: 900;
     }
 
     #intro p {
@@ -62,16 +64,6 @@ header {
         margin: 0 auto;
         padding: 0.5rem;
     }
-/*h1 {
-    font-weight:400;
-    text-align: center;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
-    color: white;
-    letter-spacing: 2px;
-}*/
 
 .social-links {
     position: absolute;
@@ -83,7 +75,7 @@ header {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        padding:0;
+        padding: 0;
     }
 
         .social-links ul li {
@@ -112,7 +104,6 @@ header {
                     margin-left: 1.5rem;
                 }
 
-a, a:hover {
-    text-decoration: none;
-    color: inherit;
+.projects{
+    padding:2em;
 }
