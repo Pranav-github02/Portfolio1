@@ -141,3 +141,11 @@ header {
                 list-style-type: none;
                 margin-top: 1rem;
             }
+        .projects .project-row .right .tech-list li {
+            margin-right: 20px;
+            font-size: 1.5rem;
+        }
+                .projects .project-row .right .tech-list img {
+                    width: 1.68em;
+                    height: 1em;
+                }
