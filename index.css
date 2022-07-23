@@ -1,0 +1,118 @@
+﻿body {
+    padding: 0;
+    line-height: 1.5;
+    background: #181a1b;
+}
+
+header {
+    background: #181a1b;
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+    /*background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));*/
+}
+
+    header #particles-js {
+        height: 80vh;
+        position: relative;
+    }
+
+        header #particles-js canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+/*.main-div {
+    width: 100%;
+    height: 650px;*/
+/*background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://burst.shopifycdn.com/photos/downtown-toronto.jpg?width=1200&format=pjpg&exif=1&iptc=1');
+    background-repeat:no-repeat;
+    background-size:cover;*/
+/*}*/
+
+#intro {
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    #intro h1 {
+        letter-spacing: 2px;
+        white-space: nowrap;
+        text-align: center;
+        font-size: clamp(2rem, 5vw, 4rem);
+        font-family: "Alfa Slab One", "Poppins";
+        font-weight: 400;
+        font-family: "Alfa Slab One", "Poppins";
+        font-weight: 400;
+    }
+
+    #intro p {
+        color: #dcdcdc;
+        line-height: 1.6;
+        font-size: clamp(1.25rem, 2vw, 1.5rem);
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
+/*h1 {
+    font-weight:400;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: white;
+    letter-spacing: 2px;
+}*/
+
+.social-links {
+    position: absolute;
+    bottom: 40%;
+    left: -125px;
+}
+
+    .social-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding:0;
+    }
+
+        .social-links ul li {
+            transition: 0.3s;
+            width: 100%;
+            display: flex;
+            justify-content: end;
+            font-size: 1.5rem;
+            width: 100%;
+            height: 100%;
+        }
+
+            .social-links ul li:hover {
+                transform: translateX(115px);
+            }
+
+            .social-links ul li a {
+                text-align: right;
+                height: 100%;
+                width: 100%;
+                padding: 15px 20px;
+            }
+
+                .social-links ul li a i {
+                    font-size: 1.75rem;
+                    margin-left: 1.5rem;
+                }
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
