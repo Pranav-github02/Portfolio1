@@ -108,7 +108,7 @@ header {
                 }
 
 .projects {
-    padding: 2em;
+    padding: 2em 0;
 }
 
     .projects .title, .projects .sub-title {
@@ -148,7 +148,8 @@ header {
                 flex-wrap: wrap;
                 list-style-type: none;
                 margin-top: 1rem;
-                padding-left:0px;
+                padding-left: 0px;
+                margin-bottom: 0;
             }
 
                 .projects .project-row .right .tech-list li {
@@ -157,6 +158,15 @@ header {
                 }
 
                 .projects .project-row .right .tech-list img {
-                    width: 1.68em;
-                    height: 1em;
+                    width: 1.2em;
+                    height: 1.1em;
+                    vertical-align:top;
                 }
+        .projects .project-row .right .project-links {
+            margin-top: 1rem;
+        }
+            .projects .project-row .right .project-links a {
+                display:inline-block;
+                padding: 0.5rem 1rem;
+                /*color:white;*/
+            }
