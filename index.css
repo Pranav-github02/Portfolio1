@@ -1,7 +1,11 @@
-﻿body {
+﻿/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap');
+
+body {
     padding: 0;
     line-height: 1.5;
     /*background: #181a1b;*/
+    font-family: 'Playfair Display SC', serif;
 }
 
 a, a:hover {
@@ -50,8 +54,9 @@ header {
         letter-spacing: 2px;
         white-space: nowrap;
         text-align: center;
-        font-size: 65px;
-        font-family: "Alfa Slab One", "Poppins";
+        font-size: 60px;
+        
+        /*font-family: 'Roboto', sans-serif;*/
         /*font-weight: 900;*/
     }
 
@@ -68,7 +73,7 @@ header {
 .social-links {
     position: absolute;
     bottom: 40%;
-    left: -125px;
+    left: -135px;
 }
 
     .social-links ul {
@@ -109,42 +114,48 @@ header {
 }
 
     .projects .title, .projects .sub-title {
-        font-family: "Alfa Slab One", "Poppins";
+        /*font-family: "Alfa Slab One", "Poppins";*/
         text-align: center;
-        /*font-weight: 600;*/
     }
 
-    .projects .sub-title{
-        font-size:25px;
+    .projects .sub-title {
+        font-size: 25px;
     }
+
     .projects .project-row {
         display: flex;
         margin-bottom: 3rem;
     }
+
         .projects .project-row .left {
             width: 50%;
             margin-right: 2rem;
         }
+
             .projects .project-row .left img {
                 width: 100%;
                 border: 1px solid lightgray;
             }
+
         .projects .project-row .right {
             width: 50%;
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
+
             .projects .project-row .right .tech-list {
                 display: flex;
                 flex-wrap: wrap;
                 list-style-type: none;
                 margin-top: 1rem;
             }
-        .projects .project-row .right .tech-list li {
-            margin-right: 20px;
-            font-size: 1.5rem;
-        }
+
+                .projects .project-row .right .tech-list li {
+                    margin-right: 20px;
+                    font-size: 1.5rem;
+                }
+
                 .projects .project-row .right .tech-list img {
                     width: 1.68em;
                     height: 1em;
