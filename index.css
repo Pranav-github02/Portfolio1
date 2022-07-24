@@ -52,7 +52,7 @@ header {
         text-align: center;
         font-size: 65px;
         font-family: "Alfa Slab One", "Poppins";
-        font-weight: 900;
+        /*font-weight: 900;*/
     }
 
     #intro p {
@@ -111,7 +111,7 @@ header {
     .projects .title, .projects .sub-title {
         font-family: "Alfa Slab One", "Poppins";
         text-align: center;
-        font-weight: 600;
+        /*font-weight: 600;*/
     }
 
     .projects .sub-title{
