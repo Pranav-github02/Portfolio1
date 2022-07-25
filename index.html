@@ -19,7 +19,7 @@
 
 </head>
 <body>
-    <header>
+    <header id="header">
         <!-- NAVIGATION BAR -->
         <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container-fluid">
@@ -144,6 +144,7 @@
                     </p>
                 </div>
             </div>
+            <p class="soon fs-3 fw-semibold">More Projects<span class="text-primary"> COMING SOON....</span></p>
         </div>
     </section>
 
@@ -204,27 +205,6 @@
     <section id="journey" class="journey bg-white">
         <div class="container-fluid">
             <h2 class="title fw-semibold">My <span class="text-primary">Journey</span></h2>
-
-            <!--<div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2015 - 2016</span>
-        <h3>front-end development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo magni est quo vitae quis veritatis fugiat optio placeat enim!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2016 - 2017</span>
-        <h3>front-end development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo magni est quo vitae quis veritatis fugiat optio placeat enim!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2017 - 2018</span>
-        <h3>front-end development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo magni est quo vitae quis veritatis fugiat optio placeat enim!</p>
-    </div>-->
             <div>
                 <div class="left border-end border-2">
                     <div class="left1">
@@ -259,8 +239,6 @@
                         <div><img src="./images/education/chitkara.png" /></div>
                         <div class="left2 align-middle" style="margin-top:40px">
                             <span class="fs-4 fw-semibold">Computer Science & Engineering</span><br />
-                            <!--<span class="fs-4">S.D. Model School</span><br />-->
-                            <!--<span class="fs-4">Class 10</span><br />-->
                             <span class="fs-3">2020-2024</span>
                         </div>
                     </div>
@@ -270,11 +248,67 @@
     </section>
 
     <!-- CONTACT -->
-    <section id="contact">
-        <div>
+    <section id="contact" class="contact bg-white">
+        <div class="container-fluid">
+            <h2 class="title fw-bold">Contact <span class="text-primary">Me</span></h2>
+            <div class="card-container">
+                <div class="card border-3">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p class="fs-5 fw-semibold">Email</p>
+                    <a href="mailto:pranav.jindal4441@gmail.com">pranav.jindal4441@gmail.com</a>
+                </div>
+                <div class="card border-3">
+                    <i class="fa-brands fa-github"></i>
+                    <p class="fs-5 fw-semibold">GitHub</p>
+                    <a href="https://github.com/Pranav-github02" target="_blank" class="text-primary">Pranav-github02</a>
+                </div>
+                <div class="card border-3">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p class="fs-5 fw-semibold">LinkedIn</p>
+                    <a href="https://www.linkedin.com/in/pranavjindalb722911aa/" target="_blank" class="text-primary">Pranav Jindal</a>
+                </div>
 
+            </div>
+            <form>
+                <p class=" fs-4 fw-bold">Send <span class="text-primary">Message</span></p>
+                <label class="fw-bold">Name</label>
+                <input type="text" id="name" maxlength="256" required />
+                <label class="fw-bold">Email Address</label>
+                <input type="email" id="email" maxlength="256" required />
+                <label class="fw-bold">Message</label>
+                <textarea id="message" maxlength="5000" required></textarea>
+                <input type="submit" value="SEND MESSAGE" id="submit-btn" class="text-white bg-primary fs-5"/>
+            </form>
         </div>
     </section>
-
+    <footer>
+        <div class="container-fluid">
+            <div class="container">
+                <div>
+                    <img src="./images/logo.png" alt="" width="50" height="40" class="d-inline-block align-middle">
+                    <span style="font-size:24px">RANAV JINDAL</span>
+                </div>
+                <div>
+                    <ul>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#header">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#journey">Journey</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
