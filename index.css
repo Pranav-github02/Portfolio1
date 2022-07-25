@@ -4,7 +4,7 @@
 body {
     padding: 0;
     line-height: 1.5;
-    /*background: #181a1b;*/
+    background: #181a1b;
 }
     body::-webkit-scrollbar {
         display: none;
@@ -19,11 +19,11 @@ header {
     /*background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://wallpaperaccess.com/full/5651988.jpg');*/
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./images/background.jpg');
     background-size: cover;
-    min-height: 100vh;
+    min-height: 99vh;
     position: relative;
 }
     header #particles-js {
-        height: 100vh;
+        height: 99vh;
         position: relative;
     }
 
@@ -48,7 +48,7 @@ header {
         letter-spacing: 2px;
         white-space: nowrap;
         text-align: center;
-        font-size: 68px;
+        font-size: 62px;
         font-family: 'Playfair Display SC', serif;
     }
 
@@ -61,16 +61,8 @@ header {
         margin: 0 auto;
         padding: 0.5rem;
     }
-.countdown {
-    color: #FFF;
-    font-family: 'Playfair Display SC', serif;
-    font-size: 52px;
-    font-weight: 400;
-    text-align:center;
-    /*margin-left: 64px;*/
-}
 
-/*.social-links {
+.social-links {
     position: absolute;
     bottom: 40%;
     left: -125px;
@@ -106,16 +98,16 @@ header {
                 .social-links ul li a i {
                     font-size: 1.75rem;
                     margin-left: 1.5rem;
-                }*/
+                }
 
-/*.projects {
+.projects {
     padding: 2em 0;
 }
 
     .projects .title, .projects .sub-title {
-        font-family: 'Playfair Display SC', serif;*/
+        font-family: 'Playfair Display SC', serif;
         /*font-family: "Alfa Slab One", "Poppins";*/
-        /*text-align: center;
+        text-align: center;
     }
 
     .projects .sub-title {
@@ -227,6 +219,7 @@ header {
 
 .journey {
     padding-bottom: 3rem;
+    font-family: 'Playfair Display SC', serif;
 }
 
     .journey .container-fluid {
@@ -238,5 +231,61 @@ header {
     .journey .title {
         text-align: center;
         margin-bottom: 3rem;
-        font-family: 'Playfair Display SC', serif;
-    }*/
+        /*font-family: 'Playfair Display SC', serif;*/
+    }
+    /*.journey .box {
+        margin-left: 2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 3.5rem;
+        padding-bottom: 3rem;
+        border-left: 0.1rem solid #aaa;
+        position: relative;
+    }
+        .journey .box i {
+            height: 4.5rem;
+            width: 4.5rem;
+            line-height: 4.5rem;
+            font-size: 1.7rem;
+            border-radius: 50%;
+            background: #0d6efd;
+            color: #fff;
+            text-align: center;
+            position: absolute;
+            top: -1rem;
+            left: -2.5rem;
+        }*/
+    .journey .left{
+        width:50%;
+    }
+    .journey .left .left1{
+        display:flex;
+        margin-right:20px;
+        box-shadow:0px 5px 21px;
+    }
+        .journey .left .left1 .left2{
+            margin-top:20px;
+            width:100%;
+            text-align:center;
+        }
+    .journey img{
+        width:200px;
+        height:200px;
+    }
+    .journey .right {
+        margin-left: 473.5px;
+        width: 50%;
+    }
+    .journey .right .right1 {
+        /*display: flex;*/
+        margin-left: 20px;
+        box-shadow: 0px 5px 21px;
+    }
+    .journey .right .right1 .right2 {
+        display:flex;
+        width: 100%;
+        text-align: center;
+    }
+        .journey .right .right1 .right2 .right3{
+            padding:10px;
+        }
