@@ -6,6 +6,9 @@ body {
     line-height: 1.5;
     background: #181a1b;
 }
+    body::-webkit-scrollbar {
+        display: none;
+    }
 
 a, a:hover {
     text-decoration: none;
@@ -13,7 +16,8 @@ a, a:hover {
 }
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://wallpaperaccess.com/full/5651988.jpg');
+    /*background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://wallpaperaccess.com/full/5651988.jpg');*/
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./images/background.jpg');
     background-size: cover;
     min-height: 85vh;
     position: relative;
@@ -44,7 +48,7 @@ header {
         letter-spacing: 2px;
         white-space: nowrap;
         text-align: center;
-        font-size: 58px;
+        font-size: 62px;
         font-family: 'Playfair Display SC', serif;
     }
 
