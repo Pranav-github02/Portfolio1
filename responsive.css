@@ -1,0 +1,110 @@
+@media screen and (max-width: 999px) {
+    header .social-links {
+        display: none;
+    }
+
+    header {
+        min-height: 65vh;
+    }
+
+        header #particles-js {
+            height: 65vh;
+        }
+    /*
+    header #intro {
+        top: 40%;
+    }*/
+}
+
+@media screen and (max-width: 768px) {
+    header .navbar-brand {
+        margin-left: 0;
+    }
+
+    /*header #intro {
+        width: 90%;
+    }*/
+
+    .projects .sub-title {
+        font-size: 20px;
+    }
+
+    .projects .project-row .right p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header #intro h1 {
+        max-width: 100%;
+        font-size: 38px;
+    }
+
+    header #intro p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .project-left {
+        min-height: 200px;
+    }
+}
+
+@media screen and (min-height: 900px) {
+    header {
+        min-height: 70vh;
+    }
+
+        header #particles-js {
+            height: 70vh;
+        }
+}
+
+@media screen and (max-width: 860px) {
+    .projects .project-row {
+        display: flex;
+        margin-bottom: 3rem;
+        flex-direction: column;
+    }
+
+        .projects .project-row .left {
+            width: 100%;
+        }
+
+        .projects .project-row .right {
+            width: 100%;
+        }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+    .projects .left {
+        min-height: 300px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 859px) {
+    .projects .left {
+        min-height: 350px;
+    }
+}
+
+@media (max-width: 420px) {
+    .skills .skills-icons img {
+        width: 70px;
+        height: 80px;
+    }
+
+    .skills .skills-icons li {
+        margin: 1rem 0.75rem;
+        font-size: 1rem;
+    }
+
+    .skills .skills-icons .bootstrap img{
+        width:90px;
+    }
+
+    .skills .skills-icons .sql img {
+        width: 110px;
+        height:80px;
+    }
+}

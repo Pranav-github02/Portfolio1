@@ -17,13 +17,15 @@
     <!-- CSS STYLE SHEET -->
     <link rel="stylesheet" href="index.css" />
 
+    <link rel="stylesheet" href="./responsive.css" />
+
 </head>
 <body>
     <header id="header">
         <!-- NAVIGATION BAR -->
         <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container-fluid">
-                <a class="navbar-brand text-white" href="./index.html" style="margin-left:100px">
+                <a class="navbar-brand text-white" href="./index.html">
                     <img src="./images/logo.png" alt="" width="60" height="50" class="d-inline-block align-middle">
                     <span style="font-size:28px">RANAV JINDAL</span>
                 </a>
@@ -52,10 +54,9 @@
             </div>
         </nav>
         <div id="intro" class="text-white">
-            <h1 class="fw-bold">Hi, I'm <span class="text-primary">Pranav Jindal</span></h1><br />
+            <h1 class="fw-bold">Hey <span class="text-primary">Pranav</span> Here</h1><br />
             <p>
-                I'm a 3rd year student at Chitkara University currently pursuing my
-                Bachelor's degree in Computer Science & Engineering.
+                A Data Science enthusiast currently pursuing Bachelor's degree in Computer Science from Chitkara University
             </p>
         </div>
         <div id="particles-js">
@@ -106,10 +107,10 @@
                         <li><img src="./images/technologies/js.png" /></li>
                         <li><img src="./images/technologies/bootstrap.png" /></li>
                     </ul>
-                    <p style="font-size:18px">
+                    <p>
                         Lead a team of four and designed and worked on the front-end part of a
                         hotel website as a project for AWD subject. Live weather is fetched
-                        using API for ease of the user. With the back-end connectivity of 
+                        using API for ease of the user. With the back-end connectivity of
                         database, user can make a booking.
                     </p>
                     <div class="project-links">
@@ -134,11 +135,11 @@
                         <li><p class="text-secondary fs-6 fw-semibold">Made with:</p></li>
                         <li><img style="width:2.5em" src="./images/technologies/sql.png" /></li>
                     </ul>
-                    <p style="font-size:18px">
+                    <p>
                         Designed a database management system for Taxi Management as a project
-                        for DBMS subject. The system has six tables that will collectively 
-                        store all the details of a particular ride booking. The system can 
-                        be used as a full-fledged working application with the development 
+                        for DBMS subject. The system has six tables that will collectively
+                        store all the details of a particular ride booking. The system can
+                        be used as a full-fledged working application with the development
                         of front-end part.
                     </p>
                 </div>
@@ -180,8 +181,8 @@
                     <img src="./images/technologies/CSS3.png" />
                     <span>CSS</span>
                 </li>
-                <li>
-                    <img src="./images/technologies/bootstrap.png" style="width:110px;" />
+                <li class="bootstrap">
+                    <img src="./images/technologies/bootstrap.png" />
                     <span>Bootstrap</span>
                 </li>
                 <li>
@@ -192,8 +193,8 @@
                     <img src="./images/technologies/photoshop.png" />
                     <span>Photoshop</span>
                 </li>
-                <li>
-                    <img src="./images/technologies/sql.png" style="width:130px; height:90px" />
+                <li class="sql">
+                    <img src="./images/technologies/sql.png" />
                     <span>SQL</span>
                 </li>
             </ul>
@@ -251,20 +252,20 @@
         <div class="container-fluid">
             <h2 class="title fw-bold">Contact <span class="text-primary">Me</span></h2>
             <div class="card-container">
+                <div class="card border-3 bg-primary text-white">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p class="fs-5 fw-semibold">LinkedIn</p>
+                    <a href="https://www.linkedin.com/in/pranavjindalb722911aa/" target="_blank">Pranav Jindal</a>
+                </div>
                 <div class="card border-3">
                     <i class="fa-solid fa-envelope"></i>
                     <p class="fs-5 fw-semibold">Email</p>
                     <a href="mailto:pranav.jindal4441@gmail.com">pranav.jindal4441@gmail.com</a>
                 </div>
-                <div class="card border-3">
+                <div class="card border-3 bg-dark text-white">
                     <i class="fa-brands fa-github"></i>
                     <p class="fs-5 fw-semibold">GitHub</p>
-                    <a href="https://github.com/Pranav-github02" target="_blank" class="text-primary">Pranav-github02</a>
-                </div>
-                <div class="card border-3">
-                    <i class="fa-brands fa-linkedin"></i>
-                    <p class="fs-5 fw-semibold">LinkedIn</p>
-                    <a href="https://www.linkedin.com/in/pranavjindalb722911aa/" target="_blank" class="text-primary">Pranav Jindal</a>
+                    <a href="https://github.com/Pranav-github02" target="_blank">Pranav-github02</a>
                 </div>
 
             </div>
@@ -276,7 +277,7 @@
                 <input type="email" id="email" maxlength="256" required />
                 <label class="fw-bold">Message</label>
                 <textarea id="message" maxlength="5000" required></textarea>
-                <input type="submit" value="SEND MESSAGE" id="submit-btn" class="text-white bg-primary fs-5"/>
+                <input type="submit" value="SEND MESSAGE" id="submit-btn" class="text-white bg-primary fs-5" />
             </form>
         </div>
     </section>
@@ -306,6 +307,10 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+            <hr />
+            <div class="text-secondary text-center">
+                Copyright &copy; 2022. All Rights Reserved | Made with &hearts; by Pranav
             </div>
         </div>
     </footer>
