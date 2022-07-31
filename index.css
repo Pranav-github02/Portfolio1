@@ -115,7 +115,7 @@ header {
     }
 
     .projects .sub-title {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .projects .project-row {
@@ -170,6 +170,7 @@ header {
                 .projects .project-row .right .project-links a {
                     display: inline-block;
                     padding: 0.5rem 1rem;
+                    font-size:1.25rem;
                 }
 
                 .projects .project-row .right .project-links .btn {
