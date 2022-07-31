@@ -257,12 +257,16 @@ header {
 
     .journey .left {
         width: 50%;
+        border-right: 3px solid #dee2e6;
     }
 
         .journey .left .left1 {
             display: flex;
             margin-right: 20px;
             box-shadow: 0 0.15rem 0.6rem;
+        }
+        .journey .left .chitkara {
+            margin-top: 40px;
         }
 
             .journey .left .left1 .left2 {
@@ -279,6 +283,7 @@ header {
     .journey .right {
         margin-left: 473.5px;
         width: 50%;
+        border-left:3px solid #dee2e6;
     }
 
         .journey .right .right1 {
@@ -295,6 +300,13 @@ header {
                 .journey .right .right1 .right2 .right3 {
                     padding: 10px;
                 }
+
+    .journey .left .title, .journey .right .title {
+        font-size: calc(1.2rem + .9vw)
+    }
+    .journey span {
+        font-size: calc(1.275rem + .3vw);
+    }
 
 .contact {
     padding: 2rem 0;
@@ -399,6 +411,15 @@ footer {
             display: flex;
             justify-content: space-between;
         }
+
+            footer .container-fluid .container img {
+                width:40px;
+                height:40px;
+            }
+
+            footer .container-fluid .container span{
+                font-size:22px;
+            }
 
             footer .container-fluid .container ul {
                 list-style-type: none;
