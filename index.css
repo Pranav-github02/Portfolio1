@@ -27,10 +27,25 @@ header {
         margin-left: 100px;
     }
 
-    header #particles-js {
-        height: 99vh;
-        position: relative;
+        header .navbar-brand img{
+            width:60px;
+            height:50px;
+        }
+
+        header .navbar-brand span {
+            font-size:28px;
+        }
+
+    header #navbarNav {
+        font-size: 19px;
+        letter-spacing: 2px;
+        margin-right: 70px;
     }
+
+        header #particles-js {
+            height: 99vh;
+            position: relative;
+        }
 
         header #particles-js canvas {
             position: absolute;
@@ -345,7 +360,6 @@ header {
 
             .contact .card-container .card i {
                 font-size: 3.5rem;
-                /*color: #0d6efd;*/
                 margin-bottom: 1rem;
                 transition: 0.4s;
             }
@@ -390,6 +404,10 @@ header {
             font-size: 1rem;
             resize: vertical;
         }
+
+    .contact #submit-btn {
+        font-size: 1.2rem;
+    }
 
     .contact #submit-btn:hover {
         color: white;
