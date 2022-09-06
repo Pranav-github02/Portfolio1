@@ -21,10 +21,6 @@
         margin-left: 0;
     }
 
-        header .navbar-brand img {
-            width: 45px;
-            height: 35px;
-        }
 
         header .navbar-brand span {
             font-size: 22px;
@@ -119,6 +115,11 @@
 }
 
 @media (max-width: 420px) {
+    header .navbar-brand img {
+        width: 45px;
+        height: 35px;
+    }
+
     .skills .skills-icons img {
         width: 70px;
         height: 80px;
